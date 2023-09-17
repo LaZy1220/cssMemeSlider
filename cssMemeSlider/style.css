@@ -76,3 +76,26 @@ input[type="radio"] {
 .slide-text {
   width: 20em;
 }
+@media (max-width: 1150px) {
+  .carousel {
+    width: 50vw;
+  }
+}
+@media (max-width: 750px) {
+  .carousel {
+    width: 95vw;
+  }
+}
+@media (max-width: 420px) {
+  .carousel {
+    width: 95vw;
+  }
+  .controls {
+    bottom: 60px;
+    right: 150px;
+  }
+  .slide-text {
+    text-align: center;
+    top: 15px;
+  }
+}
