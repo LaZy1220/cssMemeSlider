@@ -76,6 +76,7 @@ input[type="radio"] {
 }
 .slide-text {
   width: 20em;
+  font-weight: bold;
 }
 @media (max-width: 1150px) {
   .carousel {
